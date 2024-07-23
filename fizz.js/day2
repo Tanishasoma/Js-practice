@@ -1,0 +1,27 @@
+var test = []
+var n = 1
+function sample(){
+    if (n % 3 === 0 && n %5 === 0){
+       test.push("FIZZ BUZZ")
+        
+    }else if(n % 5 === 0){
+        test.push("BUZZ")
+        
+    } else if(n % 3 === 0){
+        test.push("FIZZ")
+    }else {
+         test.push(n)
+     }
+    n++
+}
+sample()
+sample()
+sample()
+sample()
+sample()
+sample()
+sample()
+sample()
+sample()
+
+console.log(test)
